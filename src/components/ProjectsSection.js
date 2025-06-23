@@ -65,26 +65,6 @@ const projects = [
     getImageSrc: () => require("../images/photo2.jpg"),
     projectLink: "https://github.com/krrish5555/machineLearning-SLF",
   },
-  // {
-  //   title: "Develop a Simple Calculator - Coursera Project",
-  //   description:
-  //     "Built a fully functional simple calculator app using React. The app allows users to perform basic mathematical operations such as addition, subtraction, multiplication, and division. Implement the `plus`, `minus`, `times`, and `divide` functions to update the result displayed on the screen accordingly. Style the UI using CSS for a clean and user-friendly interface. Users can input numbers, perform calculations, and see the result displayed instantly. Additionally, include buttons to reset the input and result.",
-  //   additionalDetails: `
-  //   The calculator app has been extended with additional features including subtraction, multiplication, and division functionalities. The \'minus\' function subtracts the input value from the current total, while the \'times\' function multiplies the input value by the current total, and the \`divide\` function divides the current total by the input value. Two buttons have been added to reset the input and result, clearing the input field and resetting the result to 0, respectively. These enhancements improve the app's functionality, allowing users to perform a wider range of mathematical operations and providing greater control over their calculations.
-  //   `,
-  //   getImageSrc: () => require("../images/photo3.jpg"),
-  //   projectLink: "https://github.com/krrish5555/courseraProjects/tree/main/simpleCalculator",
-  // },
-  // {
-  //   title: "Restaurant Reservation System - Coursera Project",
-  //   description:
-  //     "Created a responsive website for \"Little Lemon\" using HTML and CSS. The website features a header with navigation links to different pages, including Home, Menu, Reservations, and Contact. It showcases today\'s special dish with an image, price, and description in the main section. The footer includes the Little Lemon logo and copyright information. Ensure the layout is visually appealing and user-friendly, with proper styling and responsiveness across devices.",
-  //   additionalDetails: `
-  //   In addition to the existing features, the Reservations page now includes a calendar widget that allows users to select the date and time for their reservation. The calendar widget enhances the user experience by providing an intuitive way to choose their preferred reservation slot. Furthermore, a confirmation email feature has been implemented, which sends users a confirmation email after successfully submitting their reservation. This ensures that users receive details of their booking and improves communication with customers, streamlining the reservation process.
-  //   `,
-  //   getImageSrc: () => require("../images/photo4.png"),
-  //   projectLink: "https://github.com/krrish5555/courseraProjects/tree/main/littleLemonProject",
-  // },
   {
     title: "Interactive Shell Implementation in C - OS Project",
     description:
