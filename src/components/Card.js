@@ -20,6 +20,7 @@ const Card = ({ title, description, additionalDetails, imageSrc, projectLink }) 
         src={imageSrc}
         alt={title}
         width="100%"
+        height= "200px"
         objectFit="cover"
         borderTopRadius="lg"
       />
