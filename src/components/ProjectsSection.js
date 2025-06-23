@@ -34,6 +34,16 @@ const projects = [
     getImageSrc: () => require("../images/java2.jpeg"),
     projectLink: "https://github.com/krrish5555/Enhanced-Student-Information-System-with-Sorting-and-Search-Algorithms",
   },
+  {
+    title: "T-Rails A Secure Full-Stack To-Do Management Web Application",
+    description:
+      "T-Rails is a personalized task management system developed using Spring Boot, Thymeleaf, JavaScript, HTML, and CSS. The application features secure user authentication, registration, and session handling with Spring Security. Users can create, view, update, and delete tasks with customizable priority and due dates, enabling efficient personal organization.",
+    additionalDetails: `
+    The app highlights modern full-stack development principles including RESTful endpoints, responsive UI, dynamic server-client interactions, and role-based data filtering. Key features include task completion tracking, dashboard-based priority grouping, client-side validation, and mobile-friendly layouts, offering a seamless and secure user experience.
+    `,
+    getImageSrc: () => require("../images/todo.jpeg"),
+    projectLink: "https://github.com/krrish5555/T-Rails-A-Secure-Full-Stack-To-Do-Management-Web-Application",
+  },
     {
     title: "Java-Based Student Exam Scheduler Using LinkedList Navigation and ArrayList Management",
     description:
