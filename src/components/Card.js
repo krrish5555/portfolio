@@ -16,7 +16,13 @@ const Card = ({ title, description, additionalDetails, imageSrc, projectLink }) 
   return (
     <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
       <Link href={projectLink} isExternal style={{ textDecoration: "none" }} target="_blank">
-        <Image src={imageSrc} alt={title} />
+        <Image
+        src={imageSrc}
+        alt={title}
+        width="100%"
+        objectFit="cover"
+        borderTopRadius="lg"
+      />
         <Heading fontSize="20px" mt="1" fontWeight="semibold" lineHeight="tight">
           {title}
         </Heading>
