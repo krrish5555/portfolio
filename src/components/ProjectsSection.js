@@ -21,7 +21,7 @@ const projects = [
     additionalDetails: `
     To ensure data persistence, the application uses serialization to save and reload the book collection across sessions. The program loads data from a serialized .ser file if available, otherwise it populates from a raw .txt file. A well-structured object-oriented design underpins the system, separating concerns into classes for book management, sorting utilities, logging, and user interaction. This project highlights key concepts in file handling, algorithms, object serialization, and user interface design within a Java console environment.
     `,
-    getImageSrc: () => require("../images/java1.jpeg"),
+    getImageSrc: () => require("../images/java1.png"),
     projectLink: "https://github.com/krrish5555/Design-and-Implementation-of-a-Java-Based-Digital-Library-Search-Engine",
   },
     {
@@ -41,7 +41,7 @@ const projects = [
     additionalDetails: `
     The system emphasizes dynamic data handling and efficient traversal logic. ArrayList is utilized to manage the student database for quick access and updates, while the custom LinkedList enables flexible navigation through time-ordered exams. The project showcases strong object-oriented design principles, encapsulating functionality within clearly defined classes like Student, ExamSchedule, and ExamNode. This project highlights practical applications of core data structures and reinforces foundational Java concepts in a real-world academic use case.
     `,
-    getImageSrc: () => require("../images/java3.png"),
+    getImageSrc: () => require("../images/java3.jpeg"),
     projectLink: "https://github.com/krrish5555/Java-Based-Student-Exam-Scheduler-Using-LinkedList-Navigation-and-ArrayList-Management",
   },
   {
