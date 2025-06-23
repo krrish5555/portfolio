@@ -4,6 +4,46 @@ import Card from "./Card";
 import FullScreenSection from "./FullScreenSection";
 
 const projects = [
+    {
+    title: "Analyzing Role-Based Emotional and Ethical Perceptions of ChatGPT in Education Using Zero-Shot BART Classification|",
+    description:
+      "This project explores the emotional, ethical, and engagement-related perceptions of ChatGPT in education by analyzing feedback from students, teachers, and educational experts. Leveraging a zero-shot BART classification model, the system identifies nuanced emotions (such as excitement, frustration, trust), detects positive and negative sentiment, and classifies ethical concerns without requiring task-specific training. The analysis is role-aware, meaning the feedback is interpreted based on the user’s role (e.g., student or teacher), enabling deeper insights into how different stakeholders perceive AI integration in learning environments.",
+    additionalDetails: `
+    In addition to zero-shot classification, the project includes advanced experiments such as emotion flip detection (highlighting contrasting sentiments within a comment), sarcasm and prompt confusion identification, and model confidence analysis using bucketed scores and confusion matrices. Real and synthetically generated feedback data were used to support a robust evaluation. This work demonstrates how NLP can be applied in educational contexts to assess the societal and pedagogical impact of AI tools like ChatGPT, contributing to ethical AI research and responsible edtech deployment.
+    `,
+    getImageSrc: () => require("../images/finalYearProject.jpeg"),
+    projectLink: "https://github.com/krrish5555/mastersFinalYearMainProject",
+  },
+    {
+    title: "Design and Implementation of a Java-Based Digital Library Search Engine",
+    description:
+      "This project involves the development of a Java-based digital library system that allows users to search, sort, and explore a collection of books stored in a text file. Each book includes a title, author, and publication year. Users can interact with a text-based menu to view all books, perform keyword-based searches, and sort the collection by title, author, or year using implemented sorting algorithms such as bubble sort, insertion sort, and quicksort. A custom logging system tracks user actions for auditing, while the search feature supports case-insensitive lookups across book attributes.",
+    additionalDetails: `
+    To ensure data persistence, the application uses serialization to save and reload the book collection across sessions. The program loads data from a serialized .ser file if available, otherwise it populates from a raw .txt file. A well-structured object-oriented design underpins the system, separating concerns into classes for book management, sorting utilities, logging, and user interaction. This project highlights key concepts in file handling, algorithms, object serialization, and user interface design within a Java console environment.
+    `,
+    getImageSrc: () => require("../images/java1.jpeg"),
+    projectLink: "https://github.com/krrish5555/Design-and-Implementation-of-a-Java-Based-Digital-Library-Search-Engine",
+  },
+    {
+    title: "Enhanced Student Information System with Sorting and Search Algorithms",
+    description:
+      "This project focuses on building an enhanced Student Information System in Java that organizes and retrieves student and subject data efficiently. It incorporates classic algorithmic techniques to perform key operations: bubble sort is used to alphabetically sort the list of subjects, insertion sort is applied to arrange students by name, and binary search is implemented to quickly locate a student by their student number. The system is designed using a modular, object-oriented approach, making it easy to maintain and extend.",
+    additionalDetails: `
+    The user can view sorted student lists and perform fast lookups through a streamlined command-line interface. ArrayLists are used to manage collections of students and subjects dynamically. Emphasis is placed on accurate implementation and testing of sorting and search algorithms, reinforcing key principles of data structures and algorithm design in a practical educational setting. This project demonstrates proficiency in core Java programming, algorithm application, and data-driven system design.
+    `,
+    getImageSrc: () => require("../images/java2.jpeg"),
+    projectLink: "https://github.com/krrish5555/Enhanced-Student-Information-System-with-Sorting-and-Search-Algorithms",
+  },
+    {
+    title: "Java-Based Student Exam Scheduler Using LinkedList Navigation and ArrayList Management",
+    description:
+      "This project implements a Java-based student exam scheduling system that allows seamless navigation through a student’s exam timetable using a combination of ArrayList and custom LinkedList structures. Each student is associated with a personalized exam schedule, which is internally managed through a doubly linked list. Users can add new students, view the complete schedule, and navigate forward or backward through individual exam entries using intuitive menu options.",
+    additionalDetails: `
+    The system emphasizes dynamic data handling and efficient traversal logic. ArrayList is utilized to manage the student database for quick access and updates, while the custom LinkedList enables flexible navigation through time-ordered exams. The project showcases strong object-oriented design principles, encapsulating functionality within clearly defined classes like Student, ExamSchedule, and ExamNode. This project highlights practical applications of core data structures and reinforces foundational Java concepts in a real-world academic use case.
+    `,
+    getImageSrc: () => require("../images/java3.png"),
+    projectLink: "https://github.com/krrish5555/Java-Based-Student-Exam-Scheduler-Using-LinkedList-Navigation-and-ArrayList-Management",
+  },
   {
     title: "Handwritten Digit Recognition Using Deep Learning - Undergraduate Final Year Project",
     description:
@@ -24,26 +64,6 @@ const projects = [
     `,
     getImageSrc: () => require("../images/photo2.jpg"),
     projectLink: "https://github.com/krrish5555/machineLearning-SLF",
-  },
-  {
-    title: "Develop a Simple Calculator - Coursera Project",
-    description:
-      "Built a fully functional simple calculator app using React. The app allows users to perform basic mathematical operations such as addition, subtraction, multiplication, and division. Implement the `plus`, `minus`, `times`, and `divide` functions to update the result displayed on the screen accordingly. Style the UI using CSS for a clean and user-friendly interface. Users can input numbers, perform calculations, and see the result displayed instantly. Additionally, include buttons to reset the input and result.",
-    additionalDetails: `
-    The calculator app has been extended with additional features including subtraction, multiplication, and division functionalities. The \'minus\' function subtracts the input value from the current total, while the \'times\' function multiplies the input value by the current total, and the \`divide\` function divides the current total by the input value. Two buttons have been added to reset the input and result, clearing the input field and resetting the result to 0, respectively. These enhancements improve the app's functionality, allowing users to perform a wider range of mathematical operations and providing greater control over their calculations.
-    `,
-    getImageSrc: () => require("../images/photo3.jpg"),
-    projectLink: "https://github.com/krrish5555/courseraProjects/tree/main/simpleCalculator",
-  },
-  {
-    title: "Restaurant Reservation System - Coursera Project",
-    description:
-      "Created a responsive website for \"Little Lemon\" using HTML and CSS. The website features a header with navigation links to different pages, including Home, Menu, Reservations, and Contact. It showcases today\'s special dish with an image, price, and description in the main section. The footer includes the Little Lemon logo and copyright information. Ensure the layout is visually appealing and user-friendly, with proper styling and responsiveness across devices.",
-    additionalDetails: `
-    In addition to the existing features, the Reservations page now includes a calendar widget that allows users to select the date and time for their reservation. The calendar widget enhances the user experience by providing an intuitive way to choose their preferred reservation slot. Furthermore, a confirmation email feature has been implemented, which sends users a confirmation email after successfully submitting their reservation. This ensures that users receive details of their booking and improves communication with customers, streamlining the reservation process.
-    `,
-    getImageSrc: () => require("../images/photo4.png"),
-    projectLink: "https://github.com/krrish5555/courseraProjects/tree/main/littleLemonProject",
   },
   {
     title: "Interactive Shell Implementation in C - OS Project",
